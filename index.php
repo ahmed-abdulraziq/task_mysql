@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "01023749189aA#";
+$password = "";
 
 if (isset($_GET["page"])) {
     $page = $_GET["page"];

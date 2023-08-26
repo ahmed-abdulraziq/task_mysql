@@ -46,8 +46,8 @@ function Delete(id) {
         document.querySelector('input[value="Delete"]').disabled = ids?false:true;
     }
 }
-const selectAll = document.getElementById("selectAll");
 
+const selectAll = document.getElementById("selectAll");
 selectAll.addEventListener('click', (e) => {
     let items = document.querySelectorAll("table tr td input");
 
